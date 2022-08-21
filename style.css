@@ -36,6 +36,7 @@ button{
     font-size: 15px;
     letter-spacing: 1.75px;
     opacity: 90%;
+    width: 125px;
 
 }
 
@@ -93,6 +94,7 @@ ul li{
 }
 
 .main-content{
+    width: 50%;
     justify-content: center;
     gap: 2em;
 }
@@ -107,9 +109,15 @@ ul li{
     opacity: 75%;
 }
 
-.main-img img{
-    height: 600px;
+.main-img {
+    width: 50%;
 }
+
+.main-img img{
+    width: 100%;
+}
+
+
 
 
 .hero{
@@ -127,7 +135,7 @@ ul li{
 .hero-content{
     gap: 2em;
 
-    width: 450px;
+    width: 50%;
 }
 
 .hero-content h2{
@@ -152,6 +160,14 @@ ul li{
 
 .hero-content p{
     margin-left: 25px;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+.hero-img img{
+    width: 100%;
 }
 
 
